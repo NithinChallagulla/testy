@@ -5,7 +5,7 @@ import cv2
 model = torch.hub.load("ultralytics/yolov5", "yolov5s", trust_repo=True)  # Use 'yolov5m' or 'yolov5l' for better accuracy
 
 # Open Video
-video_path = "D:/COD/Ambulance.mp4"
+video_path = "/home/nithin04ch/testy/Ambulance.mp4"
 cap = cv2.VideoCapture(video_path)
 
 # Check if video opened successfully
